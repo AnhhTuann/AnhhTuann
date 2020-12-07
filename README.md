@@ -14,7 +14,7 @@
 
 <br>
 
-<h3> 🛠 &nbsp;Tech Stack</h3>
+<h3> 🛠 &nbsp;Learning</h3>
 
 - 💻 &nbsp;
   ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
@@ -36,12 +36,9 @@
 - ⚙️ &nbsp;
   ![Git](http://img.shields.io/badge/-Git-F1502F?style=flat&logo=git&logoColor=FFFFFF)
   ![GitHub](http://img.shields.io/badge/-Github-000000?style=flat&logo=github&logoColor=FFFFFF)
-  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown&style=flat&logo=git&logoColor=FFFFFF)
+  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
 - 🔧 &nbsp;
   ![Visual Studio Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual%20studio%20code&logoColor=white)
-- 🖥 &nbsp;
-  ![Illustrator](https://img.shields.io/badge/-Illustrator-333333?style=flat&logo=adobe-illustrator)
-  ![Photoshop](https://img.shields.io/badge/-Photoshop-333333?style=flat&logo=adobe-photoshop)
 
 <h3> My Status </h3>
 
@@ -52,3 +49,5 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anhhtuann&theme=radical&title_color=8E2DE2&text_color=fff)
 
 <br>
+
+[![](https://github.com/saadeghi/saadeghi/blob/master/dino.gif)](#)
