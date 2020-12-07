@@ -8,9 +8,7 @@
 - 🌱 I’m currently learning ReactJS , NodeJS , NestJS , GraphQL
 - 👯 I’m looking to collaborate on creating content!
 - 🤔 I’m looking for help with design
-- 💬 Ask me about design
 - 😄 Pronouns: he/him
-- ⚡ Fun fact:
 
 <br>
 
