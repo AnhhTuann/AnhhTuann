@@ -1,55 +1,66 @@
-[![](https://github.com/AnhhTuann/AnhhTuann/blob/main/Tuan.gif)](#)
+<!-- Header Section -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi%20%F0%9F%91%8B,%20I'm%20Tuan&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Passionate%20Developer%20from%20Vietnam&descAlignY=55&descAlign=50" alt="Header Banner" width="100%" />
+</div>
 
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="400"/>
+<div align="center">
+  <a href="https://github.com/AnhhTuann">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;ReactJS+%7C+NodeJS+%7C+NestJS;Always+Learning+%26+Building;" alt="Typing SVG" />
+  </a>
+</div>
 
-<h3> 👨🏻‍💻 About Me </h3>
+<br />
 
-- 🔭 I’m currently working on SGU
-- 🌱 I’m currently learning ReactJS , NodeJS , NestJS , GraphQL
-- 👯 I’m looking to collaborate on creating content!
-- 🤔 I’m looking for help with design
-- 😄 Pronouns: he/him
+<!-- About Me Section -->
+## 👨🏻‍💻 About Me
 
-<br>
+<img align="right" alt="Coding GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="350"/>
 
-<h3> 🛠 &nbsp;Learning</h3>
+Greetings! I'm an enthusiastic developer with a strong desire to build high-quality, scalable applications. Here's a little bit about what I do:
 
+- 🔭 I’m currently working or studying at **SGU (Saigon University)**
+- 🌱 I’m currently learning & mastering **ReactJS, NodeJS, NestJS, and GraphQL**
+- 👯 I’m looking to collaborate on **creating content and open-source projects**
+- 🤔 I’m looking for help with **UI/UX Design and system architecture**
+- 😄 Pronouns: **He/Him**
+- ⚡ Fun fact: **I can spend hours debugging a single line of code!**
 
-- 💻 &nbsp;
-  ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
-  ![C++](https://img.shields.io/badge/-C++-333333?style=flat&logo=C%2B%2B&logoColor=00599C)
-- 🌐 &nbsp;
-  ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-  ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-  ![Sass](https://img.shields.io/badge/-Sass-cc6699?style=flat&logo=sass&logoColor=ffffff)
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-eed718?style=flat&logo=javascript&logoColor=ffffff)
-  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
-  ![Node.js](https://img.shields.io/badge/-Node.js-3C873A?style=flat&logo=Node.js&logoColor=white)
-  ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react&logoColor=00c8ff)
-  ![GraphQl](https://img.shields.io/badge/-GraphQL-e535ab?style=flat&logo=graphql&logoColor=FFFFFF)
-  ![Express](https://img.shields.io/badge/-Express.js-787878?style=flat)
+<br />
+<br />
+<br />
 
-- 🛢 &nbsp;
-  ![MySQL](https://img.shields.io/badge/-MySQL-F29111?style=flat&logo=mysql&logoColor=FFFFFF)
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-4DB33D?style=flat&logo=mongodb&logoColor=FFFFFF)
-- ⚙️ &nbsp;
-  ![Git](http://img.shields.io/badge/-Git-F1502F?style=flat&logo=git&logoColor=FFFFFF)
-  ![GitHub](http://img.shields.io/badge/-Github-000000?style=flat&logo=github&logoColor=FFFFFF)
-  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
-- 🔧 &nbsp;
-  ![Visual Studio Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual%20studio%20code&logoColor=white)
+<!-- Tech Stack Section -->
+## 🛠️ Tech Stack & Tools
 
+I work with a variety of modern technologies. Here is my daily tech stack:
 
-<br>
+<div align="center">
+  <a href="https://skillicons.dev" target="_blank">
+    <img src="https://skillicons.dev/icons?i=java,cpp,html,css,sass,js,bootstrap,nodejs,react,graphql,express,mysql,mongodb,git,github,md,vscode&perline=10" alt="My Skills" />
+  </a>
+</div>
 
-<h3> My Status </h3>
+<br />
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anhhtuann&count_private=true&show_icons=true&theme=radical)
+<!-- GitHub Stats Section -->
+## 📊 GitHub Analytics
 
-<br>
+My open-source activities and statistics:
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anhhtuann&theme=radical&title_color=8E2DE2&text_color=fff)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=anhhtuann&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Tuan's GitHub stats" height="192" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anhhtuann&theme=tokyonight&hide_border=true&background=0D1117" alt="Tuan's GitHub streak" height="192" />
+</div>
 
-<br>
+<br />
 
-[![](https://github.com/AnhhTuann/AnhhTuann/blob/main/dino.gif)](#)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anhhtuann&theme=tokyonight&hide_border=true&layout=compact&bg_color=0D1117" alt="Top Languages" width="400" />
+</div>
+
+<br />
+
+<!-- Footer Section -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer Banner" width="100%" />
+</div>
