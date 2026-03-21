@@ -9,6 +9,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=anhhtuann&label=Profile%20Views&color=F7159C&style=for-the-badge" alt="Profile Views" />
+</p>
+
 <!-- Socials -->
 <p align="center">
   <a href="https://github.com/AnhhTuann"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -70,6 +74,15 @@ Greetings! I'm an enthusiastic developer with a strong desire to build high-qual
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anhhtuann&theme=radical&hide_border=true&layout=compact&bg_color=0D1117" alt="Top Languages" width="400" />
+</div>
+
+<br />
+
+<!-- GitHub Activity Graph -->
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20Index%20Dividers.png" width="30" /> GitHub Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anhhtuann&theme=radical&hide_border=true&bg_color=0D1117" alt="Activity Graph" width="100%" />
 </div>
 
 <br />
