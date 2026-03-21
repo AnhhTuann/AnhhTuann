@@ -22,7 +22,7 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="30" /> About Me
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" alt="Developer GIF" width="350" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Clean Coding GIF" width="400" />
 </div>
 
 Greetings! I'm an enthusiastic developer with a strong desire to build high-quality, scalable applications. Here's a little bit about what I do:
