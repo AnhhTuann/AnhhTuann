@@ -14,7 +14,11 @@
 <!-- About Me Section -->
 ## 👨🏻‍💻 About Me
 
-<img align="right" alt="Coding GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="350"/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" alt="Developer GIF" width="350" />
+</div>
+
+<br />
 
 Greetings! I'm an enthusiastic developer with a strong desire to build high-quality, scalable applications. Here's a little bit about what I do:
 
