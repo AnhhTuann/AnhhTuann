@@ -63,8 +63,8 @@ Greetings! I'm an enthusiastic developer with a strong desire to build high-qual
 </div>
 <br/>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anhhtuann&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anhhtuann&theme=radical&hide_border=true&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=anhhtuann&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=anhhtuann&theme=radical&hide_border=true&layout=compact" alt="Top Languages" />
 </div>
 <br/>
 <div align="center">
