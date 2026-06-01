@@ -104,7 +104,7 @@ _2021 - Present_
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,vite,wordpress,php,mysql,git,github,docker,linux,graphql,nodejs,mssql,mongodb,neo4j,postgresql,windows,vscode,figma&perline=8&theme=dark" alt="Tech Stack"/>
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,vite,wordpress,php,mysql,git,github,docker,linux,graphql,nodejs,mongodb,postgresql,windows,vscode,figma&perline=8&theme=dark" alt="Tech Stack"/>
   </a>
 </p>
 
