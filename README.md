@@ -1,22 +1,22 @@
 <!-- ════════════════════════════════════════════════════════════════════ -->
-<!--                          HEADER BANNER                            -->
+<!--                           HEADER BANNER                              -->
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20👋,%20I'm%20Tuan&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=34&desc=Passionate%20Developer%20from%20Vietnam&descAlignY=52&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20👋,%20I'm%20Tuan&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=34&desc=Frontend%20Engineer%20from%20Vietnam&descAlignY=52&descAlign=50" width="100%"/>
 </div>
 
 <!-- ════════════════════════════════════════════════════════════════════ -->
-<!--                      AVATAR & TYPING SVG                          -->
+<!--                      AVATAR & TYPING SVG                             -->
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://github.com/anhhtuann.png" width="140" style="border-radius:50%;" alt="Tuan's Avatar"/>
+  <img src="https://github.com/anhhtuann.png" width="140" style="border-radius:50%; border: 3px solid #F7159C;" alt="Tuan's Avatar"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/AnhhTuann">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=F7159C&center=true&vCenter=true&multiline=true&width=500&height=70&lines=Full-Stack+Developer;ReactJS+%7C+NodeJS+%7C+NextJS+%7C+GraphQL" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=F7159C&center=true&vCenter=true&multiline=true&width=500&height=70&lines=Frontend+Engineer;ReactJS+%7C+WordPress+%7C+SASS;Information+Technology+Engineer" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -26,13 +26,13 @@
 <!-- Social Badges -->
 <p align="center">
   <a href="https://github.com/AnhhTuann"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
-  <a href="mailto:nguyendhuan@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+  <a href="mailto:tuannguyen25101999@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
   <a href="#"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
 </p>
 
 <!-- Contact Info -->
 <p align="center">
-  📧 <b>nguyendhuan@gmail.com</b>&nbsp;&nbsp;•&nbsp;&nbsp;📞 <b>+6921 3381297</b><br/>
+  📧 <b>tuannguyen25101999@gmail.com</b>&nbsp;&nbsp;•&nbsp;&nbsp;📞 <b>(+84) 9172-701-00</b><br/>
   🔗 <a href="https://github.com/AnhhTuann"><b>github.com/AnhhTuann</b></a>
 </p>
 
@@ -43,26 +43,59 @@
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <!-- ════════════════════════════════════════════════════════════════════ -->
-<!--                           ABOUT ME                                -->
+<!--                            FEATURED CV                               -->
+<!-- ════════════════════════════════════════════════════════════════════ -->
+
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="28"/>&nbsp;My Resume
+</h2>
+
+<p align="center">
+  <a href="CV of Nguyen Duc Anh Tuan- Frontend Engineer.pdf" download>
+    <img src="https://img.shields.io/badge/Download_Full_CV-PDF-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download CV"/>
+  </a>
+</p>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+<!-- ════════════════════════════════════════════════════════════════════ -->
+<!--                             ABOUT ME                                 -->
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <h2>
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="28"/>&nbsp;About Me
 </h2>
 
-Greetings! I'm an enthusiastic developer with a strong desire to build high-quality, scalable applications. Here's a little bit about what I do:
+> **I am a Frontend Engineer with practical experience in designing and deploying web projects for diverse clients. I do not just write code, but I am also passionate about participating in the entire product creation journey, from translating ideas into designs to actual operation.**
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" width="18"/> I'm currently working or studying at **SGU (Saigon University)**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals%20and%20Nature/Seedling.png" width="18"/> I'm currently learning & mastering **ReactJS, NodeJS, NextJS, and GraphQL**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/People%20With%20Bunny%20Ears.png" width="18"/> I'm looking to collaborate on **creating content and open-source projects**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" width="18"/> I'm looking for help with **UI/UX Design and system architecture**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Grinning%20Face%20with%20Smiling%20Eyes.png" width="18"/> Pronouns: **He/Him**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="18"/> Fun fact: **I can spend hours debugging a single line of code!**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" width="18"/> I'm currently working as a **Freelance Frontend Developer**.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals%20and%20Nature/Seedling.png" width="18"/> I specialize in building E-commerce and Landing Pages with **React, Vite, and custom WordPress themes**.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" width="18"/> I have an aesthetic mindset, creating "Cinematic" and "Moody" styles using **SASS/SCSS**.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="18"/> Fun fact: I actively integrate **AI models like Gemini** into my workflow to optimize code and debugging!
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <!-- ════════════════════════════════════════════════════════════════════ -->
-<!--                      TECH STACK & TOOLS                           -->
+<!--                      PROFESSIONAL EXPERIENCE                         -->
+<!-- ════════════════════════════════════════════════════════════════════ -->
+
+<h2>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" width="28"/>&nbsp;Professional Experience
+</h2>
+
+### 💻 Freelance Frontend Developer
+
+_2021 - Present_
+
+- **End-to-End Web Development:** Directly set up and deploy websites from scratch using React, Vite, and specifically optimizing WordPress.
+- **Aesthetic Mindset & SASS:** Utilize strengths in SASS/SCSS and an art background to build deep interfaces according to the unique requirements of each brand.
+- **Clean Code & Performance:** Committed to writing clean, maintainable code using ESLint, Prettier, and version control via Git.
+- **Applying AI to Workflow:** Integrate large language models (Gemini) to support debugging and source code optimization, shortening deployment time by 30%.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+<!-- ════════════════════════════════════════════════════════════════════ -->
+<!--                       TECH STACK & TOOLS                             -->
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <h2>
@@ -71,14 +104,19 @@ Greetings! I'm an enthusiastic developer with a strong desire to build high-qual
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,js,react,nodejs,nextjs,graphql,express,mysql,mongodb,bootstrap,wordpress,php,java,cpp,git,github,vscode,figma&perline=10&theme=dark" alt="Tech Stack"/>
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,react,vite,wordpress,php,mysql,git,github,docker,linux,windows,vscode,figma&perline=8&theme=dark" alt="Tech Stack"/>
   </a>
 </p>
+
+- **Frontend:** HTML5, CSS3, SASS/SCSS, Javascript (ES6+), React.js, Vite.
+- **CMS & Backend:** WordPress (Custom Theme), MySQL, basic PHP.
+- **Tools & AI:** Gemini, Github Copilot, Git, Docker (Basic).
+- **Operating Systems:** Linux (Manjaro), Windows.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <!-- ════════════════════════════════════════════════════════════════════ -->
-<!--                       GITHUB ANALYTICS                            -->
+<!--                       GITHUB ANALYTICS                               -->
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <h2>
@@ -100,49 +138,31 @@ Greetings! I'm an enthusiastic developer with a strong desire to build high-qual
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anhhtuann&theme=redical&hide_border=true&line=F7159C&point=FFFFFF&area=true&area_color=F7159C" alt="Nguyen Duc Anh Tuan's Contribution Graph" width="98%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anhhtuann&theme=radical&hide_border=true&line=F7159C&point=FFFFFF&area=true&area_color=F7159C" alt="Contribution Graph" width="98%"/>
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <!-- ════════════════════════════════════════════════════════════════════ -->
-<!--                        SKILLS & TOOLS                             -->
-<!-- ════════════════════════════════════════════════════════════════════ -->
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" width="28"/>&nbsp;Skills & Tools
-</h2>
-
-- **Frontend:** React ⚛️, React.js ✅
-- **CMS & Backend:** Freelance Frontend Developer 📱
-- **Tools & AI:** WordPress, PHP Backend, CMS, MySQL 🗄️, CSS 🎨, AI 🤖
-- **Operating Systems:** Windows 🪟, iOS 🍎
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
-
-<!-- ════════════════════════════════════════════════════════════════════ -->
-<!--                          EDUCATION                                -->
+<!--                            EDUCATION                                 -->
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <h2>
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="28"/>&nbsp;Education
 </h2>
 
-- 🏫 **Sai Gon University** — 2022 – 2024
-- 📝 **TOEIC:** TOEIC score
+- 🏫 **Saigon University (SGU)** — _2017 – 2021_
+  - Degree: **Information Technology Engineer** (Kỹ sư Công nghệ thông tin)
+- 📝 **Certifications:** TOEIC (Score: 550)
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <!-- ════════════════════════════════════════════════════════════════════ -->
-<!--                           FOOTER                                  -->
+<!--                              FOOTER                                  -->
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
 </div>
 
-<p align="center">© 2024 NGUYEN DUC ANH TUAN</p>
-
-<p align="center">
-  <img src="./dino.gif" width="500" alt="Dino Game"/>
-</p>
+<p align="center">© 2021 - 2026 NGUYEN DUC ANH TUAN. All Rights Reserved.</p>
