@@ -15,13 +15,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AnhhTuann">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=F7159C&center=true&vCenter=true&multiline=true&width=850&height=70&lines=Frontend+Engineer;Web+Development+%7C+Scalable+UI+%7C+Creative+Coding;Information+Technology+Engineer" alt="Typing SVG"/>
-  </a>
+  <img src="name.svg" alt="NGUYEN DUC ANH TUAN - FRONTEND ENGINEER"/>
 </p>
 
 <p align="center">
-  <img src="name.svg" alt="NGUYEN DUC ANH TUAN - FRONTEND ENGINEER"/>
+  <a href="https://github.com/AnhhTuann">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=F7159C&center=true&vCenter=true&multiline=true&width=850&height=70&lines=Web+Development+%7C+Scalable+UI+%7C+Creative+Coding" alt="Typing SVG"/>
+  </a>
 </p>
 
 <!-- Social Badges -->
