@@ -20,8 +20,9 @@
   </a>
 </p>
 
-<h2 align="center">NGUYEN DUC ANH TUAN</h2>
-<h4 align="center">FRONTEND ENGINEER</h4>
+<p align="center">
+  <img src="name.svg" alt="NGUYEN DUC ANH TUAN - FRONTEND ENGINEER"/>
+</p>
 
 <!-- Social Badges -->
 <p align="center">
