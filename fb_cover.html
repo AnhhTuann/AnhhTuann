@@ -170,16 +170,7 @@
         }
       }
     </style>
-    <script>
-      function setScale() {
-        const cover = document.querySelector(".cover");
-        const screenHeight = window.innerHeight - 150;
-        const scale = Math.min(screenHeight / 856, 1);
-        cover.style.transform = `scale(${scale})`;
-      }
-      window.addEventListener("resize", setScale);
-      window.addEventListener("DOMContentLoaded", setScale);
-    </script>
+
   </head>
   <body>
     <div class="hint-container">
