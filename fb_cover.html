@@ -6,15 +6,12 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Segoe+UI:wght@400;600;900&display=swap");
 
+      /* Đã tắt Flexbox và ép Body phải đủ to để không bao giờ bị lẹm ảnh */
       body {
         margin: 0;
-        padding: 20px;
+        padding: 50px;
         background-color: #121212;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        flex-direction: column;
+        min-width: 1800px;
       }
 
       .hint-container {
@@ -25,9 +22,7 @@
         border-radius: 8px;
         border: 1px solid #333;
         margin-bottom: 30px;
-        text-align: center;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-        max-width: 800px;
+        display: inline-block;
       }
 
       .hint-container h2 {
@@ -35,12 +30,10 @@
         color: #00ffcc;
       }
 
-      /* Kích thước chuẩn Cover Facebook */
       .cover {
         width: 1640px;
         height: 856px;
         background-color: #0a0a0c;
-        /* Hiệu ứng lưới Grid nền */
         background-image:
           linear-gradient(rgba(247, 21, 156, 0.05) 1px, transparent 1px),
           linear-gradient(90deg, rgba(247, 21, 156, 0.05) 1px, transparent 1px);
@@ -48,11 +41,10 @@
         position: relative;
         overflow: hidden;
         font-family: "Segoe UI", sans-serif;
-        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9);
-        transform-origin: top center;
+        /* Thêm viền ảo cực mỏng để Chrome nhận diện đúng ranh giới lúc chụp */
+        box-shadow: 0 0 0 1px #0a0a0c;
       }
 
-      /* Banner Gradient bằng CSS */
       .banner {
         position: absolute;
         top: 0;
@@ -68,7 +60,6 @@
         border-bottom: 2px solid rgba(247, 21, 156, 0.3);
       }
 
-      /* Text Lời chào */
       .greeting {
         position: absolute;
         top: 90px;
@@ -93,7 +84,6 @@
         letter-spacing: 1px;
       }
 
-      /* Avatar Căn Giữa */
       .avatar-container {
         position: absolute;
         top: 380px;
@@ -102,7 +92,6 @@
         width: 260px;
         height: 260px;
         border-radius: 50%;
-        /* Viền kép tạo cảm giác chiều sâu */
         border: 8px solid #0a0a0c;
         outline: 4px solid #f7159c;
         background-image: url("https://github.com/anhhtuann.png");
@@ -112,7 +101,6 @@
         box-shadow: 0 10px 25px rgba(247, 21, 156, 0.4);
       }
 
-      /* Khu vực Text chính */
       .info-section {
         position: absolute;
         top: 550px;
@@ -132,7 +120,6 @@
         margin: 0;
         letter-spacing: 4px;
         filter: drop-shadow(0 0 15px rgba(247, 21, 156, 0.3));
-        animation: shine 5s linear infinite;
       }
 
       .title {
@@ -141,10 +128,9 @@
         color: #a0aec0;
         letter-spacing: 18px;
         margin-top: 15px;
-        margin-left: 18px; /* Cân bằng chữ do letter-spacing */
+        margin-left: 18px;
       }
 
-      /* Thẻ Kỹ năng (Pills) */
       .skills-wrapper {
         display: flex;
         gap: 20px;
@@ -163,29 +149,22 @@
         letter-spacing: 1px;
         box-shadow: 0 0 15px rgba(247, 21, 156, 0.1) inset;
       }
-
-      @keyframes shine {
-        to {
-          background-position: 200% center;
-        }
-      }
     </style>
-
   </head>
   <body>
     <div class="hint-container">
-      <h2>📸 Hướng dẫn chụp ảnh bìa</h2>
+      <h2>📸 Chụp phát cuối nét căng</h2>
       <p>
-        Nhấn <b>F12 -> Inspect</b> -> Chuột phải vào thẻ
-        <b>&lt;div class="cover"&gt;</b> -> Chọn
-        <b>Capture node screenshot</b> để lấy ảnh PNG nét nhất.
+        Nhấn F12 -> Chuột phải vào thẻ <b>&lt;div class="cover"&gt;</b> ->
+        <b>Capture node screenshot</b>.
       </p>
     </div>
 
     <div class="cover">
-      <!-- Nền Banner trên cùng -->
+      <!-- Banner -->
       <div class="banner">
-        <h2 class="greeting">Hi 👋, I'm Tuan</h2>
+        <!-- Đã xóa dấu phẩy thừa ở đây -->
+        <h2 class="greeting">Hi 👋 I'm Tuan</h2>
         <div class="greeting-sub">
           &lt; Passionate Developer from Vietnam /&gt;
         </div>
@@ -199,7 +178,7 @@
         <h1 class="name">NGUYEN DUC ANH TUAN</h1>
         <div class="title">FRONTEND ENGINEER</div>
 
-        <!-- Thẻ kỹ năng dạng Pills -->
+        <!-- Thẻ kỹ năng -->
         <div class="skills-wrapper">
           <div class="skill-tag">Web Development</div>
           <div class="skill-tag">Scalable UI</div>
