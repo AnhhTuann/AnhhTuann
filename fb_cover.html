@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Facebook Cover - NGUYEN DUC ANH TUAN</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Segoe+UI:wght@400;600;900&display=swap");
+
+      body {
+        margin: 0;
+        padding: 20px;
+        background-color: #121212;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      .hint-container {
+        background: #1e1e1e;
+        color: #e0e0e0;
+        font-family: "Segoe UI", sans-serif;
+        padding: 15px 25px;
+        border-radius: 8px;
+        border: 1px solid #333;
+        margin-bottom: 30px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        max-width: 800px;
+      }
+
+      .hint-container h2 {
+        margin: 0 0 10px 0;
+        color: #00ffcc;
+      }
+
+      /* Kích thước chuẩn Cover Facebook */
+      .cover {
+        width: 1640px;
+        height: 856px;
+        background-color: #0a0a0c;
+        /* Hiệu ứng lưới Grid nền */
+        background-image:
+          linear-gradient(rgba(247, 21, 156, 0.05) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(247, 21, 156, 0.05) 1px, transparent 1px);
+        background-size: 40px 40px;
+        position: relative;
+        overflow: hidden;
+        font-family: "Segoe UI", sans-serif;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9);
+        transform-origin: top center;
+      }
+
+      /* Banner Gradient bằng CSS */
+      .banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 380px;
+        background: linear-gradient(
+          135deg,
+          #1c103f 0%,
+          #3a2268 50%,
+          #152243 100%
+        );
+        border-bottom: 2px solid rgba(247, 21, 156, 0.3);
+      }
+
+      /* Text Lời chào */
+      .greeting {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        text-align: center;
+        font-size: 65px;
+        font-weight: 700;
+        color: white;
+        letter-spacing: 2px;
+        margin: 0;
+        text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .greeting-sub {
+        position: absolute;
+        top: 180px;
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+        color: #b3b3b3;
+        font-family: "Fira Code", monospace;
+        letter-spacing: 1px;
+      }
+
+      /* Avatar Căn Giữa */
+      .avatar-container {
+        position: absolute;
+        top: 380px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+        /* Viền kép tạo cảm giác chiều sâu */
+        border: 8px solid #0a0a0c;
+        outline: 4px solid #f7159c;
+        background-image: url("https://github.com/anhhtuann.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 10;
+        box-shadow: 0 10px 25px rgba(247, 21, 156, 0.4);
+      }
+
+      /* Khu vực Text chính */
+      .info-section {
+        position: absolute;
+        top: 550px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .name {
+        font-size: 85px;
+        font-weight: 900;
+        background: linear-gradient(90deg, #f7159c, #ff7a00, #f7159c);
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0;
+        letter-spacing: 4px;
+        filter: drop-shadow(0 0 15px rgba(247, 21, 156, 0.3));
+        animation: shine 5s linear infinite;
+      }
+
+      .title {
+        font-size: 28px;
+        font-weight: 600;
+        color: #a0aec0;
+        letter-spacing: 18px;
+        margin-top: 15px;
+        margin-left: 18px; /* Cân bằng chữ do letter-spacing */
+      }
+
+      /* Thẻ Kỹ năng (Pills) */
+      .skills-wrapper {
+        display: flex;
+        gap: 20px;
+        margin-top: 35px;
+      }
+
+      .skill-tag {
+        background: rgba(247, 21, 156, 0.05);
+        border: 1px solid rgba(247, 21, 156, 0.4);
+        color: #f7159c;
+        padding: 12px 28px;
+        border-radius: 50px;
+        font-family: "Fira Code", monospace;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        box-shadow: 0 0 15px rgba(247, 21, 156, 0.1) inset;
+      }
+
+      @keyframes shine {
+        to {
+          background-position: 200% center;
+        }
+      }
+    </style>
+    <script>
+      function setScale() {
+        const cover = document.querySelector(".cover");
+        const screenHeight = window.innerHeight - 150;
+        const scale = Math.min(screenHeight / 856, 1);
+        cover.style.transform = `scale(${scale})`;
+      }
+      window.addEventListener("resize", setScale);
+      window.addEventListener("DOMContentLoaded", setScale);
+    </script>
+  </head>
+  <body>
+    <div class="hint-container">
+      <h2>📸 Hướng dẫn chụp ảnh bìa</h2>
+      <p>
+        Nhấn <b>F12 -> Inspect</b> -> Chuột phải vào thẻ
+        <b>&lt;div class="cover"&gt;</b> -> Chọn
+        <b>Capture node screenshot</b> để lấy ảnh PNG nét nhất.
+      </p>
+    </div>
+
+    <div class="cover">
+      <!-- Nền Banner trên cùng -->
+      <div class="banner">
+        <h2 class="greeting">Hi 👋, I'm Tuan</h2>
+        <div class="greeting-sub">
+          &lt; Passionate Developer from Vietnam /&gt;
+        </div>
+      </div>
+
+      <!-- Avatar -->
+      <div class="avatar-container"></div>
+
+      <!-- Thông tin -->
+      <div class="info-section">
+        <h1 class="name">NGUYEN DUC ANH TUAN</h1>
+        <div class="title">FRONTEND ENGINEER</div>
+
+        <!-- Thẻ kỹ năng dạng Pills -->
+        <div class="skills-wrapper">
+          <div class="skill-tag">Web Development</div>
+          <div class="skill-tag">Scalable UI</div>
+          <div class="skill-tag">Creative Coding</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
