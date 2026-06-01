@@ -11,12 +11,12 @@
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://github.com/anhhtuann.png" width="140" style="border-radius:50%; border: 3px solid #F7159C;" alt="Tuan's Avatar"/>
+  <img src="avatar.svg" width="146" alt="Tuan's Avatar"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/AnhhTuann">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=F7159C&center=true&vCenter=true&multiline=true&width=500&height=70&lines=Frontend+Engineer;ReactJS+%7C+WordPress+%7C+SASS;Information+Technology+Engineer" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=F7159C&center=true&vCenter=true&multiline=true&width=600&height=70&lines=Frontend+Engineer;Web+Development+%7C+Scalable+UI+%7C+Creative+Coding;Information+Technology+Engineer" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -69,7 +69,7 @@
 > **I am a Frontend Engineer with practical experience in designing and deploying web projects for diverse clients. I do not just write code, but I am also passionate about participating in the entire product creation journey, from translating ideas into designs to actual operation.**
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" width="18"/> I'm currently working as a **Freelance Frontend Developer**.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals%20and%20Nature/Seedling.png" width="18"/> I specialize in building E-commerce and Landing Pages with **React, Vite, and custom WordPress themes**.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Seedling.png" width="18"/> I specialize in building E-commerce and Landing Pages with **React, Vite, and custom WordPress themes**.
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" width="18"/> I have an aesthetic mindset, creating "Cinematic" and "Moody" styles using **SASS/SCSS**.
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="18"/> Fun fact: I actively integrate **AI models like Gemini** into my workflow to optimize code and debugging!
 
@@ -104,14 +104,14 @@ _2021 - Present_
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,js,react,vite,wordpress,php,mysql,git,github,docker,linux,windows,vscode,figma&perline=8&theme=dark" alt="Tech Stack"/>
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,vite,wordpress,php,mysql,git,github,docker,linux,graphql,nodejs,mssql,mongodb,neo4j,postgresql,windows,vscode,figma&perline=8&theme=dark" alt="Tech Stack"/>
   </a>
 </p>
 
-- **Frontend:** HTML5, CSS3, SASS/SCSS, Javascript (ES6+), React.js, Vite.
-- **CMS & Backend:** WordPress (Custom Theme), MySQL, basic PHP.
-- **Tools & AI:** Gemini, Github Copilot, Git, Docker (Basic).
-- **Operating Systems:** Linux (Manjaro), Windows.
+- **Frontend:** HTML5, CSS3, SASS/SCSS, Javascript (ES6+), TypeScript, React.js, Vite , Wordpress, PHP.
+- **Backend:** NodeJS, GraphQL, MongoDB, MSSQL, MySQL, Neo4j, PostgreSQL.
+- **Tools & AI:** Gemini, Github Copilot, Git, Docker , Figma , Vscode , Antigravity , Postgresql , Vercel,Neon ,Render.
+- **Operating Systems:** Linux (Manjaro , Archlinux , Ubuntu), Windows.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
