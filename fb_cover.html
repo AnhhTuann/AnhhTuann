@@ -6,7 +6,6 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Segoe+UI:wght@400;600;900&display=swap");
 
-      /* Đã tắt Flexbox và ép Body phải đủ to để không bao giờ bị lẹm ảnh */
       body {
         margin: 0;
         padding: 50px;
@@ -23,6 +22,7 @@
         border: 1px solid #333;
         margin-bottom: 30px;
         display: inline-block;
+        text-align: left;
       }
 
       .hint-container h2 {
@@ -41,7 +41,6 @@
         position: relative;
         overflow: hidden;
         font-family: "Segoe UI", sans-serif;
-        /* Thêm viền ảo cực mỏng để Chrome nhận diện đúng ranh giới lúc chụp */
         box-shadow: 0 0 0 1px #0a0a0c;
       }
 
@@ -50,7 +49,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 380px;
+        height: 550px;
         background: linear-gradient(
           135deg,
           #1c103f 0%,
@@ -58,11 +57,21 @@
           #152243 100%
         );
         border-bottom: 2px solid rgba(247, 21, 156, 0.3);
+        mask-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 1) 80%,
+          rgba(0, 0, 0, 0) 100%
+        );
+        -webkit-mask-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 1) 80%,
+          rgba(0, 0, 0, 0) 100%
+        );
       }
 
       .greeting {
         position: absolute;
-        top: 90px;
+        top: 80px;
         width: 100%;
         text-align: center;
         font-size: 65px;
@@ -75,7 +84,7 @@
 
       .greeting-sub {
         position: absolute;
-        top: 180px;
+        top: 170px;
         width: 100%;
         text-align: center;
         font-size: 28px;
@@ -84,51 +93,35 @@
         letter-spacing: 1px;
       }
 
-      .avatar-container {
-        position: absolute;
-        top: 380px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 260px;
-        height: 260px;
-        border-radius: 50%;
-        border: 8px solid #0a0a0c;
-        outline: 4px solid #f7159c;
-        background-image: url("https://github.com/anhhtuann.png");
-        background-size: cover;
-        background-position: center;
-        z-index: 10;
-        box-shadow: 0 10px 25px rgba(247, 21, 156, 0.4);
-      }
-
       .info-section {
         position: absolute;
-        top: 550px;
+        top: 300px; /* Đẩy nhẹ xuống 1 xíu cho cân với chữ nhỏ */
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        z-index: 10;
       }
 
       .name {
-        font-size: 85px;
+        font-size: 60px; /* GIẢM TỪ 90px XUỐNG 60px ĐỂ VỪA KHÍT ĐIỆN THOẠI */
         font-weight: 900;
         background: linear-gradient(90deg, #f7159c, #ff7a00, #f7159c);
         background-size: 200% auto;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin: 0;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
         filter: drop-shadow(0 0 15px rgba(247, 21, 156, 0.3));
       }
 
       .title {
-        font-size: 28px;
+        font-size: 24px; /* Thu nhỏ chức danh cho cân đối với tên */
         font-weight: 600;
         color: #a0aec0;
-        letter-spacing: 18px;
+        letter-spacing: 15px;
         margin-top: 15px;
-        margin-left: 18px;
+        margin-left: 15px;
       }
 
       .skills-wrapper {
@@ -138,47 +131,44 @@
       }
 
       .skill-tag {
-        background: rgba(247, 21, 156, 0.05);
-        border: 1px solid rgba(247, 21, 156, 0.4);
+        background: rgba(10, 10, 12, 0.8);
+        border: 1px solid rgba(247, 21, 156, 0.5);
         color: #f7159c;
-        padding: 12px 28px;
+        padding: 10px 24px;
         border-radius: 50px;
         font-family: "Fira Code", monospace;
-        font-size: 20px;
+        font-size: 18px; /* Thu nhỏ thẻ skill lại một chút xíu */
         font-weight: 600;
         letter-spacing: 1px;
-        box-shadow: 0 0 15px rgba(247, 21, 156, 0.1) inset;
+        box-shadow:
+          0 0 15px rgba(247, 21, 156, 0.1) inset,
+          0 5px 15px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
       }
     </style>
   </head>
   <body>
     <div class="hint-container">
-      <h2>📸 Chụp phát cuối nét căng</h2>
+      <h2>📸 Chụp ảnh bìa chuẩn Safe-Zone (Bản chốt hạ)</h2>
+      <p>Chữ đã được thu nhỏ lại để không bị cắt lẹm trên điện thoại.</p>
       <p>
-        Nhấn F12 -> Chuột phải vào thẻ <b>&lt;div class="cover"&gt;</b> ->
-        <b>Capture node screenshot</b>.
+        Nhấn <b>F12 -> Inspect</b> -> Chuột phải vào thẻ
+        <b>&lt;div class="cover"&gt;</b> -> <b>Capture node screenshot</b>.
       </p>
     </div>
 
     <div class="cover">
-      <!-- Banner -->
-      <div class="banner">
-        <!-- Đã xóa dấu phẩy thừa ở đây -->
-        <h2 class="greeting">Hi 👋 I'm Tuan</h2>
-        <div class="greeting-sub">
-          &lt; Passionate Developer from Vietnam /&gt;
-        </div>
+      <div class="banner"></div>
+
+      <h2 class="greeting">Hi 👋 I'm Tuan</h2>
+      <div class="greeting-sub">
+        &lt; Passionate Developer from Vietnam /&gt;
       </div>
 
-      <!-- Avatar -->
-      <div class="avatar-container"></div>
-
-      <!-- Thông tin -->
       <div class="info-section">
         <h1 class="name">NGUYEN DUC ANH TUAN</h1>
         <div class="title">FRONTEND ENGINEER</div>
 
-        <!-- Thẻ kỹ năng -->
         <div class="skills-wrapper">
           <div class="skill-tag">Web Development</div>
           <div class="skill-tag">Scalable UI</div>

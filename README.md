@@ -125,7 +125,7 @@ _2021 - Present_
 </h2>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anhhtuann&theme=radical&hide_border=true&ring=F7159C&fire=F7159C&currStreakLabel=F7159C" alt="GitHub Streak" width="49%"/>
+  <img src="https://streak-stats.demolab.com/?user=anhhtuann&theme=radical&hide_border=true&ring=F7159C&fire=F7159C&currStreakLabel=F7159C" alt="GitHub Streak" width="49%"/>
 </div>
 
 <br/>
