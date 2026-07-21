@@ -3,15 +3,17 @@
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20👋%20I'm%20Tuan&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=34&desc=Frontend%20Engineer%20from%20Vietnam&descAlignY=52&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi%20👋%20I'm%20Tuan&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=34&desc=Frontend%20Engineer%20%7C%20Creative%20Coder%20%7C%20Vietnam&descAlignY=54&descAlign=50" width="100%"/>
 </div>
 
 <!-- ════════════════════════════════════════════════════════════════════ -->
 <!--                      AVATAR & TYPING SVG                             -->
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
+<br/>
+
 <p align="center">
-  <img src="avatar.svg" width="146" alt="Tuan's Avatar"/>
+  <img src="avatar.svg" width="150" alt="Tuan's Avatar"/>
 </p>
 
 <p align="center">
@@ -28,17 +30,14 @@
 <p align="center">
   <a href="https://github.com/AnhhTuann"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
   <a href="mailto:tuannguyen25101999@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
-  <a href="https://www.facebook.com/anhhtuann1999"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
+  <a href="https://www.facebook.com/anhhtuann1999"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=anhhtuann&label=Profile+Views&color=F7159C&style=for-the-badge" alt="Profile Views"/>
 </p>
 
 <!-- Contact Info -->
 <p align="center">
   📧 <b>tuannguyen25101999@gmail.com</b>&nbsp;&nbsp;•&nbsp;&nbsp;📞 <b>(+84) 9172-701-00</b><br/>
   🔗 <a href="https://github.com/AnhhTuann"><b>github.com/AnhhTuann</b></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=anhhtuann&label=Profile+Views&color=blueviolet&style=flat-square" alt="Profile Views"/>
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
@@ -52,8 +51,8 @@
 </h2>
 
 <p align="center">
-  <a href="CV of Nguyen Duc Anh Tuan- Frontend Engineer.pdf" download>
-    <img src="https://img.shields.io/badge/Download_Full_CV-PDF-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download CV"/>
+  <a href="CV_Nguyen_Duc_Anh_Tuan_Frontend_Engineer.pdf" download>
+    <img src="https://img.shields.io/badge/⬇️%20Download%20Full%20CV-PDF-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download CV"/>
   </a>
 </p>
 
@@ -67,12 +66,15 @@
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="28"/>&nbsp;About Me
 </h2>
 
-> **I am a Frontend Engineer with practical experience in designing and deploying web projects for diverse clients. I do not just write code, but I am also passionate about participating in the entire product creation journey, from translating ideas into designs to actual operation.**
+> **I am a Frontend Engineer with practical experience in designing and deploying web projects for diverse clients. I don't just write code — I'm passionate about the entire product journey: from translating ideas into designs to actual deployment and operation.**
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" width="18"/> I'm currently working as a **Freelance Frontend Developer**.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Seedling.png" width="18"/> I specialize in building E-commerce and Landing Pages with **React, Vite, and custom WordPress themes**.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" width="18"/> I have an aesthetic mindset, creating "Cinematic" and "Moody" styles using **SASS/SCSS**.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="18"/> Fun fact: I actively integrate **AI models like Gemini** into my workflow to optimize code and debugging!
+| | |
+|---|---|
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" width="20"/> | Currently working as a **Freelance Frontend Developer** |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Seedling.png" width="20"/> | Specializing in **E-commerce & Landing Pages** with React, Vite, and WordPress |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" width="20"/> | Aesthetic mindset — building **"Cinematic" & "Moody"** UI styles with SASS/SCSS |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="20"/> | Actively integrating **AI models (Gemini, Antigravity)** into workflow to optimize & debug |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="20"/> | Continuously learning — documenting Frontend knowledge in **bilingual notes (VI & EN)** |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
@@ -84,14 +86,12 @@
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" width="28"/>&nbsp;Professional Experience
 </h2>
 
-### 💻 Freelance Frontend Developer
+### 💻 Freelance Frontend Developer &nbsp;·&nbsp; _2021 – Present_
 
-_2021 - Present_
-
-- **End-to-End Web Development:** Directly set up and deploy websites from scratch using React, Vite, and specifically optimizing WordPress.
-- **Aesthetic Mindset & SASS:** Utilize strengths in SASS/SCSS and an art background to build deep interfaces according to the unique requirements of each brand.
-- **Clean Code & Performance:** Committed to writing clean, maintainable code using ESLint, Prettier, and version control via Git.
-- **Applying AI to Workflow:** Integrate large language models (Gemini) to support debugging and source code optimization, shortening deployment time by 30%.
+- 🚀 **End-to-End Web Development:** Set up and deploy websites from scratch using React, Vite, and optimized WordPress themes.
+- 🎨 **Aesthetic Mindset & SASS:** Leverage SASS/SCSS and an art background to craft distinctive, brand-specific interfaces.
+- 🧹 **Clean Code & Performance:** Committed to ESLint, Prettier, and Git-based version control for maintainable codebases.
+- 🤖 **AI-Powered Workflow:** Integrate LLMs (Gemini, Antigravity) for debugging and optimization — reducing deployment time by **~30%**.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
@@ -105,14 +105,19 @@ _2021 - Present_
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,vite,wordpress,php,mysql,git,github,docker,linux,graphql,nodejs,mongodb,postgresql,windows,vscode,figma&perline=8&theme=dark" alt="Tech Stack"/>
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,vite,wordpress,php,mysql,git,github,docker,linux,graphql,nodejs,mongodb,postgresql,windows,vscode,figma&perline=7&theme=dark" alt="Tech Stack"/>
   </a>
 </p>
 
-- **Frontend:** HTML5, CSS3, SASS/SCSS, Javascript (ES6+), TypeScript, React.js, Vite , Wordpress, PHP.
-- **Backend:** NodeJS, GraphQL, MongoDB, MSSQL, MySQL, Neo4j, PostgreSQL.
-- **Tools & AI:** Gemini, Github Copilot, Git, Docker , Figma , Vscode , Antigravity , Postgresql , Vercel,Neon ,Render.
-- **Operating Systems:** Linux (Manjaro , Archlinux , Ubuntu), Windows.
+<br/>
+
+| Category | Technologies |
+|---|---|
+| 🖥️ **Frontend** | HTML5, CSS3, SASS/SCSS, JavaScript (ES6+), TypeScript, React.js, Vite, WordPress, PHP |
+| ⚙️ **Backend** | Node.js, GraphQL, MongoDB, MySQL, PostgreSQL, MSSQL, Neo4j |
+| 🤖 **AI & Tools** | Gemini, GitHub Copilot, Antigravity IDE, Git, Docker, Figma, VSCode |
+| ☁️ **Deployment** | Vercel, Render, Neon, Docker |
+| 🐧 **OS** | Linux (Manjaro, Arch, Ubuntu), Windows |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
@@ -145,6 +150,50 @@ _2021 - Present_
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <!-- ════════════════════════════════════════════════════════════════════ -->
+<!--                       LEARNING RESOURCES                             -->
+<!-- ════════════════════════════════════════════════════════════════════ -->
+
+<h2>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="28"/>&nbsp;📚 My Learning Resources &amp; Notes
+</h2>
+
+> I document everything I learn. Here are my personal knowledge bases — feel free to explore!
+
+<div align="center">
+
+| 📄 Document | 🌐 Language | 📝 Description |
+|---|---|---|
+| [🗺️ Lộ Trình Học Front-End Từ Đầu](hoc_frontend_tu_dau.md) | 🇻🇳 Tiếng Việt | Roadmap học Frontend từ zero → Junior. 4 giai đoạn, tips thực chiến |
+| [📚 Frontend Full Notes (EN)](frontend_full_notes_en.md) | 🇬🇧 English | Complete Frontend knowledge: Git, HTML, CSS, JS, React, Performance... |
+| [📚 Tổng Hợp Kiến Thức Frontend (VI)](frontend_full_notes_vi.md) | 🇻🇳 Tiếng Việt | Tổng hợp đầy đủ: Git, HTML, CSS, JS, React, Performance... |
+
+</div>
+
+<br/>
+
+<details>
+<summary>📖 <b>What's inside these notes?</b> (click to expand)</summary>
+
+<br/>
+
+**[Lộ Trình Học Frontend](hoc_frontend_tu_dau.md)** covers:
+- 4-phase roadmap: HTML/CSS → JavaScript → React/Tools → Projects & Jobs
+- Estimated timeline: **3–5 months** with daily practice
+- Practical tips: "Code 80% — Read 20%", "Build something every day"
+
+**[Frontend Full Notes](frontend_full_notes_en.md) / [Tiếng Việt](frontend_full_notes_vi.md)** covers:
+- **Git** — Core concepts, branching, merging, conflict resolution
+- **HTML** — Semantic markup, forms, accessibility
+- **CSS** — Box model, flexbox, grid, animations, responsive design
+- **JavaScript** — ES6+, closures, async/await, event loop
+- **React** — Hooks, state management, performance optimization
+- **Performance** — Core Web Vitals, lazy loading, caching strategies
+
+</details>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+<!-- ════════════════════════════════════════════════════════════════════ -->
 <!--                            EDUCATION                                 -->
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
@@ -152,9 +201,12 @@ _2021 - Present_
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="28"/>&nbsp;Education
 </h2>
 
-- 🏫 **Saigon University (SGU)** — _2017 – 2021_
-  - Degree: **Information Technology Engineer** (Kỹ sư Công nghệ thông tin)
-- 📝 **Certifications:** TOEIC (Score: 550)
+| 🏫 Institution | 📅 Year | 🎓 Degree |
+|---|---|---|
+| **Saigon University (SGU)** | 2017 – 2021 | Information Technology Engineer |
+
+**📜 Certifications:**
+- TOEIC — Score: **550**
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
@@ -166,4 +218,8 @@ _2021 - Present_
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
 </div>
 
-<p align="center">© 2021 - 2026 NGUYEN DUC ANH TUAN. All Rights Reserved.</p>
+<p align="center">
+  <i>✨ "Write code like poetry — clean, expressive, and meaningful." ✨</i><br/>
+  <br/>
+  © 2021 – 2026 <b>NGUYEN DUC ANH TUAN</b>. All Rights Reserved.
+</p>
