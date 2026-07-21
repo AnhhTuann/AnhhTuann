@@ -66,6 +66,8 @@
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="28"/>&nbsp;About Me
 </h2>
 
+<img align="right" src="https://user-images.githubusercontent.com/73097560/115834471-23ceb580-a44d-11eb-9fd5-0d79e5652504.gif" width="300" alt="Coding Boy"/>
+
 > **I am a Frontend Engineer with practical experience in designing and deploying web projects for diverse clients. I don't just write code — I'm passionate about the entire product journey: from translating ideas into designs to actual deployment and operation.**
 
 | | |
@@ -76,7 +78,10 @@
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="20"/> | Actively integrating **AI models (Gemini, Antigravity)** into workflow to optimize & debug |
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="20"/> | Continuously learning — documenting Frontend knowledge in **bilingual notes (VI & EN)** |
 
+<br clear="both"/>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
 
 <!-- ════════════════════════════════════════════════════════════════════ -->
 <!--                      PROFESSIONAL EXPERIENCE                         -->
@@ -144,7 +149,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anhhtuann&theme=radical&hide_border=true&line=F7159C&point=FFFFFF&area=true&area_color=F7159C" alt="Contribution Graph" width="98%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=anhhtuann&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
