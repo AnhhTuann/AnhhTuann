@@ -171,6 +171,8 @@
 | [🗺️ Lộ Trình Học Front-End Từ Đầu](hoc_frontend_tu_dau.md) | 🇻🇳 Tiếng Việt | Roadmap học Frontend từ zero → Junior. 4 giai đoạn, tips thực chiến |
 | [📚 Frontend Full Notes (EN)](frontend_full_notes_en.md) | 🇬🇧 English | Complete Frontend knowledge: Git, HTML, CSS, JS, React, Performance... |
 | [📚 Tổng Hợp Kiến Thức Frontend (VI)](frontend_full_notes_vi.md) | 🇻🇳 Tiếng Việt | Tổng hợp đầy đủ: Git, HTML, CSS, JS, React, Performance... |
+| [🎯 Frontend Interview Questions (EN)](frontend_interview_questions_en.md) | 🇬🇧 English | Top interview Q&A: HTML, CSS, JS, React, Performance, System Design... |
+| [🎯 Câu Hỏi Phỏng Vấn Frontend (VI)](frontend_interview_questions_vi.md) | 🇻🇳 Tiếng Việt | Bộ câu hỏi phỏng vấn: HTML, CSS, JS, React, Performance, System Design... |
 
 </div>
 
@@ -193,6 +195,14 @@
 - **JavaScript** — ES6+, closures, async/await, event loop
 - **React** — Hooks, state management, performance optimization
 - **Performance** — Core Web Vitals, lazy loading, caching strategies
+
+**[Frontend Interview Questions (EN)](frontend_interview_questions_en.md) / [Tiếng Việt](frontend_interview_questions_vi.md)** covers:
+- **HTML/CSS** — Semantic, specificity, BEM, responsive Q&A
+- **JavaScript** — Closures, hoisting, promises, event loop traps
+- **React** — Lifecycle, hooks, re-render, virtual DOM questions
+- **Performance** — Core Web Vitals, optimization techniques
+- **System Design** — Architecture, caching, scalability questions
+- Real interview questions from **top tech companies**
 
 </details>
 
