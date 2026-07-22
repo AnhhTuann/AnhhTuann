@@ -276,64 +276,200 @@ Làm quen với hệ sinh thái hiện đại: Git để quản lý code, React 
 ### Tuần 10 – React Cơ bản
 
 **Lý thuyết cần học:**
-- [ ] React là gì? Tại sao dùng React? Virtual DOM là gì?
-- [ ] Setup: `npm create vite@latest` với React template
-- [ ] JSX: viết HTML trong JS
-- [ ] Components: Function component
-- [ ] Props: truyền dữ liệu từ cha xuống con
-- [ ] `useState`: quản lý state nội bộ
-- [ ] Render list: `array.map()` + `key` prop
+- [ ] React là gì? Tại sao dùng React? Virtual DOM hoạt động thế nào?
+- [ ] Setup project: `npm create vite@latest my-app -- --template react`
+- [ ] Cấu trúc thư mục React project
+- [ ] JSX: quy tắc, className, self-closing, expression `{}`
+- [ ] Function Component: viết và export đúng cách
+- [ ] Props: truyền xuống, destructuring, default value
+- [ ] `useState`: giá trị ban đầu, functional update, object/array state
+- [ ] Render list: `array.map()` + `key` prop (tại sao key quan trọng?)
+- [ ] Conditional rendering: ternary `? :` và `&&`
 
 **Tài nguyên học:**
-- 📖 [React.dev (Official Docs)](https://react.dev/learn) – Mới nhất, tốt nhất
-- 📺 [React Tutorial – Kevin Powell (YouTube)](https://www.youtube.com/results?search_query=react+tutorial+beginners+2024)
+- 📖 [React.dev – Learn React](https://react.dev/learn) – Tốt nhất, có interactive
+- 📖 [reactjs_full_notes_vi.md](reactjs_full_notes_vi.md) – File ghi chú chi tiết
+- 📺 [Scrimba – Learn React for free](https://scrimba.com/learn/learnreact)
 
 **Bài tập thực hành:**
 ```
-✅ Bài 1: Chuyển To-do list thuần JS sang React
-✅ Bài 2: Tạo danh sách sản phẩm (product card list) với dữ liệu giả
-✅ Bài 3: Tạo counter với nút tăng/giảm dùng useState
+✅ Bài 1: Chuyển To-do list thuần JS sang React (thêm, xóa, đánh dấu done)
+✅ Bài 2: Tạo ProductCard component – nhận props: name, price, image, onAddToCart
+✅ Bài 3: Tạo Counter với useState – nút +/–/reset, không cho âm
+✅ Bài 4: Render danh sách 10 user từ mảng JSON giả (mock data)
 ```
+
+**Kiểm tra hiểu bài:**
+> - `key` prop trong list là gì? Tại sao không nên dùng index?
+> - Props khác State ở chỗ nào?
+> - Tại sao không được mutate state trực tiếp (`state.count = 1`)?
 
 ---
 
-### Tuần 11 – React Nâng cao
+### Tuần 11 – React Nâng cao (Hooks)
 
 **Lý thuyết cần học:**
-- [ ] `useEffect`: xử lý side effects, gọi API
-- [ ] `useRef`: tham chiếu đến DOM element
-- [ ] `useCallback` và `useMemo`: tối ưu performance
-- [ ] Lifting state up: chia sẻ state giữa các component
-- [ ] Component composition
-- [ ] Conditional rendering
-- [ ] Forms trong React: controlled components
+- [ ] `useEffect`: 4 pattern (run always / once / on dep change / cleanup)
+- [ ] Gọi API trong useEffect: async/await, loading state, error state
+- [ ] Race condition là gì? Cách fix bằng cleanup function
+- [ ] `useRef`: truy cập DOM, lưu giá trị không trigger re-render
+- [ ] `useContext`: chia sẻ state không cần prop drilling
+- [ ] `useReducer`: thay useState khi logic phức tạp
+- [ ] `useMemo`: cache kết quả tính toán nặng
+- [ ] `useCallback`: cache function reference cho React.memo
+- [ ] `React.memo`: tránh re-render không cần thiết
+- [ ] Controlled vs Uncontrolled Form
+- [ ] Lifting state up: chia sẻ state giữa sibling components
+- [ ] Custom Hook: tách logic tái sử dụng (`useFetch`, `useLocalStorage`)
 
 **Bài tập thực hành:**
 ```
-✅ Bài 1: Chuyển Weather App sang React
-✅ Bài 2: Tạo search + filter list với useEffect
-✅ Bài 3: Tạo form đăng nhập với validation
+✅ Bài 1: Chuyển Weather App sang React + gọi API thật + loading/error state
+✅ Bài 2: Tạo search + filter list dùng useEffect + useMemo
+✅ Bài 3: Tạo form đăng nhập: validation, controlled input, submit handler
+✅ Bài 4: Viết Custom Hook useFetch(url) tái sử dụng được
+✅ Bài 5: Dark/Light mode toggle dùng useContext
 ```
+
+**Kiểm tra hiểu bài:**
+> - `useEffect` với `[]` khác gì với không có dependency array?
+> - Stale closure trong useEffect là gì?
+> - Khi nào nên dùng `useReducer` thay `useState`?
 
 ---
 
-### Tuần 12 – Routing, TypeScript & Tooling
+### Tuần 12 – React Router, State Management & Tooling
 
 **Lý thuyết cần học:**
-- [ ] React Router: `BrowserRouter`, `Route`, `Link`, `useParams`, `useNavigate`
-- [ ] TypeScript cơ bản: types, interfaces, props typing
-- [ ] npm/pnpm: cách quản lý packages
-- [ ] Vite: build tool, cách cấu hình cơ bản
-- [ ] Tailwind CSS (tùy chọn): utility-first CSS
+
+**React Router v6:**
+- [ ] `BrowserRouter`, `Routes`, `Route`, `Link`, `NavLink`
+- [ ] `useParams` – lấy `:id` từ URL
+- [ ] `useNavigate` – chuyển trang bằng code
+- [ ] `useSearchParams` – đọc query string
+- [ ] Protected Route – chặn trang khi chưa đăng nhập
+- [ ] Nested routes, layout route
+
+**State Management:**
+- [ ] Zustand (đơn giản): `create`, `set`, `get` – khuyến nghị cho dự án vừa
+- [ ] Context API – dùng cho theme, auth
+- [ ] Redux Toolkit (cơ bản) – `createSlice`, `configureStore`, `useSelector`, `useDispatch`
+
+**Tooling:**
+- [ ] TypeScript cơ bản: `type`, `interface`, props typing với `React.FC`
+- [ ] Vite: `npm run dev`, `npm run build`, env variables
+- [ ] ESLint + Prettier: cấu hình cơ bản
+- [ ] React DevTools (browser extension) – debug component tree
 
 **Bài tập thực hành:**
 ```
-✅ Bài 1: Tạo app có nhiều trang dùng React Router (Home, About, Products, Detail)
-✅ Bài 2: Convert component sang TypeScript
+✅ Bài 1: Multi-page app: Home / Products / Product Detail / Cart (React Router)
+✅ Bài 2: Giỏ hàng với Zustand (thêm, xóa, tính tổng)
+✅ Bài 3: Convert 1 component sang TypeScript đầy đủ
+✅ Bài 4: Thêm Protected Route – redirect nếu chưa login
 ```
 
 **🏁 Project cuối giai đoạn 3:**
-> Làm **Movie/Book Finder App**: tìm kiếm phim/sách qua API → hiển thị kết quả → click vào xem chi tiết (nhiều trang dùng React Router). Có TypeScript.
+> Làm **Movie/Book Finder App**: tìm kiếm qua API → hiển thị kết quả dạng grid → click xem chi tiết → bookmark bằng Zustand → nhiều trang React Router. Có TypeScript + deploy Vercel.
+
+---
+
+## 📅 GIAI ĐOẠN 3.5 – REACT CHUYÊN SÂU (Tùy chọn — nên học trước khi xin việc)
+
+> Nếu bạn muốn làm **Senior Junior** hoặc nhắm công ty có dự án React lớn, hãy học thêm phần này sau khi xong Giai đoạn 3.
+
+---
+
+### 🔥 React Performance
+
+**Lý thuyết:**
+- [ ] `React.memo` + `useCallback` kết hợp đúng cách
+- [ ] `useMemo` cho tính toán nặng
+- [ ] Code Splitting + `React.lazy` + `Suspense`
+- [ ] Virtualization – `react-window` cho list dài (1000+ items)
+- [ ] React DevTools Profiler – đo render time
+- [ ] Tránh re-render không cần thiết: state placement, component split
+
+**Bài tập:**
+```
+✅ Dùng Profiler đo render time của to-do list 500 items
+✅ Implement react-window cho list 1000 items
+✅ Lazy load từng trang trong React Router
+```
+
+---
+
+### 🌐 Data Fetching Hiện Đại
+
+**Lý thuyết:**
+- [ ] TanStack Query (React Query): `useQuery`, `useMutation`, `invalidateQueries`
+- [ ] Tại sao dùng React Query thay `useEffect + fetch`?
+- [ ] Cache, staleTime, refetchOnWindowFocus
+- [ ] Optimistic Update – cập nhật UI trước, rollback nếu lỗi
+- [ ] Axios: `axios.create`, interceptor, error handling
+
+**Bài tập:**
+```
+✅ Chuyển Weather App từ useEffect sang useQuery
+✅ CRUD đơn giản với useMutation + invalidateQueries
+✅ Thêm Optimistic Update cho nút Like
+```
+
+---
+
+### 🏗️ Architecture & Patterns
+
+**Lý thuyết:**
+- [ ] Cấu trúc thư mục chuẩn: `features/`, `components/`, `hooks/`, `services/`
+- [ ] Compound Component Pattern
+- [ ] Render Props Pattern
+- [ ] HOC (Higher-Order Component)
+- [ ] Error Boundary – bắt lỗi trong component tree
+- [ ] Suspense cho data fetching
+
+**Bài tập:**
+```
+✅ Tái cấu trúc Movie App theo features/ pattern
+✅ Viết ErrorBoundary bọc toàn bộ app
+✅ Tạo Modal component dùng Compound Pattern
+```
+
+---
+
+### 🧪 Testing React
+
+**Lý thuyết:**
+- [ ] React Testing Library: `render`, `screen`, `userEvent`
+- [ ] Query: `getByRole`, `getByText`, `findByText` (async)
+- [ ] Mock fetch/API trong test
+- [ ] Nguyên tắc: test hành vi user, không test implementation
+
+**Bài tập:**
+```
+✅ Viết test cho Counter component
+✅ Viết test cho Form component (validation)
+✅ Viết test async cho UserList (mock fetch)
+```
+
+---
+
+### 🚀 Next.js (Framework React Phổ Biến Nhất)
+
+**Lý thuyết:**
+- [ ] Next.js là gì? SSR vs CSR vs SSG vs ISR
+- [ ] App Router (Next.js 13+): `app/`, `page.tsx`, `layout.tsx`
+- [ ] Server Component vs Client Component
+- [ ] `fetch` trong Server Component (tự cache)
+- [ ] `loading.tsx`, `error.tsx`, `not-found.tsx`
+- [ ] Image optimization: `next/image`
+- [ ] Deploy lên Vercel (1 click)
+
+**Bài tập:**
+```
+✅ Tạo blog đơn giản với Next.js App Router
+✅ Fetch data từ API trong Server Component
+✅ Deploy lên Vercel
+```
 
 ---
 
@@ -371,15 +507,19 @@ Làm **1 project lớn thật sự** để đưa vào portfolio. Gợi ý:
 **Lý thuyết cần ôn:**
 - [ ] HTML: semantic, accessibility, SEO cơ bản
 - [ ] CSS: specificity, box model, flexbox vs grid, responsive
-- [ ] JS: closure, this, promise, event loop
-- [ ] React: virtual DOM, hooks, lifecycle, state management
+- [ ] JS: closure, this, promise, event loop, scope, hoisting
+- [ ] React: Virtual DOM, Reconciliation, hooks, lifecycle, state management
+- [ ] React: `memo`, `useMemo`, `useCallback` – khác nhau chỗ nào?
+- [ ] React: Controlled vs Uncontrolled, Prop Drilling, Context
 - [ ] Git: merge vs rebase, gitflow
 
 **Thực hành:**
 ```
-✅ Giải các câu hỏi trong file frontend_full_notes_vi.md – Mục 14
+✅ Ôn câu hỏi trong file frontend_interview_questions_vi.md
+✅ Ôn kiến thức trong reactjs_full_notes_vi.md – Mục 20 (Interview Q&A)
 ✅ Làm 5–10 bài coding trên leetcode.com (Easy level)
-✅ Mock interview với bạn bè hoặc tự nói to câu trả lời
+✅ Mock interview: tự nói to câu trả lời, ghi âm, nghe lại
+✅ Giải thích Virtual DOM và useEffect cho người không biết React
 ```
 
 ---
@@ -430,8 +570,8 @@ Google Chrome – DevTools rất mạnh
 | Tên | Loại | Link |
 |---|---|---|
 | **MDN Web Docs** | Tài liệu | [developer.mozilla.org](https://developer.mozilla.org) |
-| **javascript.info** | Khóa học | [javascript.info](https://javascript.info) |
-| **react.dev** | Tài liệu React | [react.dev](https://react.dev) |
+| **javascript.info** | Khóa học JS | [javascript.info](https://javascript.info) |
+| **react.dev** | Tài liệu React chính thức | [react.dev](https://react.dev) |
 | **freeCodeCamp** | Khóa học + Chứng chỉ | [freecodecamp.org](https://freecodecamp.org) |
 | **The Odin Project** | Lộ trình full | [theodinproject.com](https://www.theodinproject.com) |
 | **Frontend Mentor** | Bài tập thực tế | [frontendmentor.io](https://frontendmentor.io) |
@@ -439,6 +579,11 @@ Google Chrome – DevTools rất mạnh
 | **Flexbox Froggy** | Game CSS | [flexboxfroggy.com](https://flexboxfroggy.com) |
 | **Grid Garden** | Game CSS | [cssgridgarden.com](https://cssgridgarden.com) |
 | **TypeScript Docs** | Tài liệu TS | [typescriptlang.org](https://www.typescriptlang.org/docs/) |
+| **TanStack Query Docs** | Data fetching | [tanstack.com/query](https://tanstack.com/query/latest) |
+| **Zustand Docs** | State management | [zustand-demo.pmnd.rs](https://zustand-demo.pmnd.rs/) |
+| **React Router Docs** | Routing | [reactrouter.com](https://reactrouter.com/) |
+| **Next.js Docs** | Full-stack React | [nextjs.org/docs](https://nextjs.org/docs) |
+| **Testing Library** | Testing React | [testing-library.com](https://testing-library.com/docs/react-testing-library/intro/) |
 
 ---
 
@@ -449,21 +594,33 @@ Kỹ năng kỹ thuật:
 □ Viết được HTML semantic, không chỉ dùng div
 □ CSS responsive không cần framework
 □ Flexbox và Grid thành thạo
-□ JavaScript ES6+ thoải mái
-□ Gọi API bằng fetch/async-await
-□ React: hooks, component, state, props
-□ TypeScript cơ bản
-□ Git: commit, branch, merge, push/pull
+□ JavaScript ES6+ thoải mái (closure, promise, async/await)
+□ Gọi API bằng fetch/async-await, xử lý loading + error
+□ React: JSX, component, props, state (useState)
+□ React Hooks: useEffect, useRef, useContext, useCallback, useMemo
+□ React Router: điều hướng nhiều trang, dynamic route
+□ State Management: Zustand hoặc Context API
+□ TypeScript cơ bản: type, interface, props typing
+□ Git: commit, branch, merge, pull request, gitflow
+
+React nâng cao (bonus):
+□ Custom Hooks: useFetch, useLocalStorage, useDebounce
+□ React Query / TanStack Query
+□ React.memo + useCallback kết hợp đúng
+□ Code splitting với React.lazy + Suspense
+□ Error Boundary
+□ Biết cơ bản về Next.js
 
 Portfolio:
-□ Ít nhất 2–3 project có thể show
-□ Tất cả đều deploy lên internet (Vercel/Netlify)
-□ Code lên GitHub public
-□ README đầy đủ
+□ Ít nhất 2–3 project React có thể show
+□ Tất cả đều deploy lên Vercel/Netlify
+□ Code lên GitHub public với README đầy đủ
+□ Ít nhất 1 project dùng API thật + đa trang
 
 Mềm:
-□ Có thể giải thích code của mình cho người khác
-□ Biết cách Google và đọc documentation
+□ Giải thích được Virtual DOM và tại sao React nhanh
+□ Giải thích được useEffect cleanup và stale closure
+□ Biết cách Google và đọc documentation tiếng Anh
 □ Không sợ đọc thông báo lỗi (error message)
 ```
 
@@ -479,4 +636,7 @@ Mềm:
 
 ---
 
-*📁 File tài liệu tham khảo đi kèm: `frontend_full_notes_vi.md` và `frontend_full_notes_en.md`*
+*📁 Tài liệu tham khảo đi kèm:*
+- *[frontend_full_notes_vi.md](frontend_full_notes_vi.md) / [frontend_full_notes_en.md](frontend_full_notes_en.md)*
+- *[reactjs_full_notes_vi.md](reactjs_full_notes_vi.md) / [reactjs_full_notes_en.md](reactjs_full_notes_en.md)*
+- *[frontend_interview_questions_vi.md](frontend_interview_questions_vi.md) / [frontend_interview_questions_en.md](frontend_interview_questions_en.md)*
