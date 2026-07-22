@@ -173,6 +173,7 @@
 | [📚 Tổng Hợp Kiến Thức Frontend (VI)](frontend_full_notes_vi.md) | 🇻🇳 Tiếng Việt | Tổng hợp đầy đủ: Git, HTML, CSS, JS, React, Performance... |
 | [🎯 Frontend Interview Questions (EN)](frontend_interview_questions_en.md) | 🇬🇧 English | Top interview Q&A: HTML, CSS, JS, React, Performance, System Design... |
 | [🎯 Câu Hỏi Phỏng Vấn Frontend (VI)](frontend_interview_questions_vi.md) | 🇻🇳 Tiếng Việt | Bộ câu hỏi phỏng vấn: HTML, CSS, JS, React, Performance, System Design... |
+| [🇬🇧 Lộ Trình Học Tiếng Anh Từ Đầu](hoc_tieng_anh_tu_dau.md) | 🇻🇳 Tiếng Việt | A0 → B2+: Ngữ pháp, từ vựng, luyện nói/nghe, tiếng Anh IT & phỏng vấn |
 
 </div>
 
@@ -203,6 +204,15 @@
 - **Performance** — Core Web Vitals, optimization techniques
 - **System Design** — Architecture, caching, scalability questions
 - Real interview questions from **top tech companies**
+
+**[🇬🇧 Lộ Trình Học Tiếng Anh Từ Đầu](hoc_tieng_anh_tu_dau.md)** covers:
+- **4 giai đoạn:** A0 → A2 → B1 → B1+ → B2+ (6–12 tháng)
+- **Nguyên tắc học:** Spaced Repetition, Shadowing, Immersion, Input i+1
+- **Ngữ pháp:** Các thì, Modal verbs, Conditionals, Passive, Relative Clauses
+- **Từ vựng:** 3000 từ theo cấp độ + Từ vựng IT chuyên ngành
+- **Kỹ năng:** Listening, Speaking (Shadowing), Reading, Writing (Email, PEEL)
+- **Tiếng Anh IT:** Code review, technical interview, behavioral questions (STAR)
+- **Tools & Resources:** Apps, YouTube, Podcasts, lịch học mẫu hàng ngày
 
 </details>
 
