@@ -427,14 +427,50 @@ Ngôn ngữ lập trình **thông dịch, đơn luồng** chạy trên trình du
 - `{a:1} == {a:1}` → `false` (so sánh theo địa chỉ tham chiếu).
 - `typeof NaN` → `"number"` (quirk của JS).
 
-### 8.3 var / let / const
-| | `var` | `let` | `const` |
-|---|---|---|---|
-| **Scope** | Function | Block | Block |
-| **Hoisting** | Có (undefined) | Có (TDZ – lỗi nếu dùng trước khai báo) | Có (TDZ) |
-| **Reassign** | Được | Được | Không được |
+### 8.3 Phân biệt `var`, `let`, `const` (Rất quan trọng)
 
-> **Khuyên dùng**: Luôn dùng `const`, chỉ dùng `let` khi cần reassign. Tránh `var`.
+| Tính chất | `var` (Cũ) | `let` (ES6) | `const` (ES6) |
+|---|---|---|---|
+| **Phạm vi (Scope)** | `Function` (sống cả trong function) | `Block` (chết ngay khi ra khỏi `{}`) | `Block` (chết ngay khi ra khỏi `{}`) |
+| **Gán lại (Reassign)** | ✅ Được | ✅ Được | ❌ Không được |
+| **Khai báo lại** | ✅ Được | ❌ Không được | ❌ Không được |
+| **Hoisting** | Kéo lên và gán ngầm `undefined` | Bị kẹt trong "Vùng cấm" (TDZ) → Lỗi | Bị kẹt trong "Vùng cấm" (TDZ) → Lỗi |
+
+**1. Phạm vi sống (Scope):**
+- `var`: Chỉ bị nhốt bởi function. Nếu nằm trong `if {}` hoặc `for {}`, nó vẫn thoát ra ngoài được.
+- `let` / `const`: Bị nhốt bởi cặp ngoặc nhọn `{}` gần nhất (Block scope).
+```javascript
+if (true) {
+  var a = 1;
+  let b = 2;
+}
+console.log(a); // ✅ 1 (var thoát ra được)
+console.log(b); // ❌ Lỗi (let bị nhốt trong if)
+```
+
+**2. Gán lại giá trị (Reassign):**
+- Dùng `let` khi giá trị sẽ thay đổi (ví dụ: biến đếm, vòng lặp).
+- Dùng `const` cho giá trị cố định. **Lưu ý:** `const` với Object/Array thì không được gán lại thành Object/Array mới, nhưng **vẫn được sửa thuộc tính bên trong**.
+```javascript
+const user = { name: "A" };
+user.name = "B";  // ✅ Sửa thuộc tính bên trong thì OK
+user = {};        // ❌ Lỗi vì gán lại toàn bộ object
+```
+
+**3. Hoisting (Kéo lên đầu):**
+Tất cả đều được JS kéo lên đầu file ngầm, nhưng cách xử lý khác nhau:
+```javascript
+console.log(name); // ✅ undefined (không bị crash code)
+var name = "Tuan";
+
+console.log(age);  // ❌ ReferenceError (crash code vì nằm trong vùng cấm TDZ)
+let age = 25; 
+```
+
+> **🔥 QUY TẮC THỰC CHIẾN:**
+> - Mặc định luôn dùng `const`.
+> - Nếu biết biến đó sẽ bị thay đổi (VD: `count++`), thì đổi sang `let`.
+> - **Tuyệt đối không dùng `var`** trong code hiện đại.
 
 ### 8.4 Scope, Closure, Context (`this`)
 - **Scope**: Phạm vi truy cập biến. Có 3 loại: Global, Function, Block.

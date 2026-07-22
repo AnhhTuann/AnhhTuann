@@ -429,14 +429,50 @@ An **interpreted, single-threaded** programming language that runs in the browse
 - `{a:1} == {a:1}` → `false` (compared by reference, not value).
 - `typeof NaN` → `"number"` (a historical quirk of JS).
 
-### 8.3 var / let / const
-| | `var` | `let` | `const` |
-|---|---|---|---|
-| **Scope** | Function | Block | Block |
-| **Hoisting** | Yes (undefined) | Yes (TDZ – error if used before declaration) | Yes (TDZ) |
-| **Reassign** | Yes | Yes | No |
+### 8.3 `var`, `let`, `const` Differences (Crucial)
 
-> **Best practice**: Always use `const`, only use `let` when reassignment is needed. Avoid `var`.
+| Behavior | `var` (Legacy) | `let` (ES6) | `const` (ES6) |
+|---|---|---|---|
+| **Scope** | `Function` (lives inside entire function) | `Block` (dies outside `{}`) | `Block` (dies outside `{}`) |
+| **Reassign** | ✅ Yes | ✅ Yes | ❌ No |
+| **Redeclare** | ✅ Yes | ❌ No | ❌ No |
+| **Hoisting** | Hoisted and initialized with `undefined` | Hoisted but trapped in TDZ → Error | Hoisted but trapped in TDZ → Error |
+
+**1. Scope:**
+- `var`: Only scoped by functions. If declared inside `if {}` or `for {}`, it leaks out.
+- `let` / `const`: Block-scoped. Trapped by the closest `{}` braces.
+```javascript
+if (true) {
+  var a = 1;
+  let b = 2;
+}
+console.log(a); // ✅ 1 (var leaks out)
+console.log(b); // ❌ Error (let is trapped)
+```
+
+**2. Reassignment:**
+- Use `let` when the value will change (e.g., counters, loops).
+- Use `const` for fixed values. **Note:** Using `const` with Objects/Arrays prevents reassignment to a new Object/Array, but **mutating their properties is still allowed**.
+```javascript
+const user = { name: "A" };
+user.name = "B";  // ✅ Mutating property is OK
+user = {};        // ❌ Error: Reassigning a constant
+```
+
+**3. Hoisting:**
+All three are hoisted to the top of their scope by JS, but handled differently:
+```javascript
+console.log(name); // ✅ undefined (code doesn't crash)
+var name = "Tuan";
+
+console.log(age);  // ❌ ReferenceError (crashes due to TDZ - Temporal Dead Zone)
+let age = 25; 
+```
+
+> **🔥 BEST PRACTICES:**
+> - Default to `const`.
+> - If you know the variable will be reassigned (e.g., `count++`), switch to `let`.
+> - **Never use `var`** in modern code.
 
 ### 8.4 Scope, Closure, Context (`this`)
 - **Scope**: Where variables are accessible. 3 types: Global, Function, Block.
