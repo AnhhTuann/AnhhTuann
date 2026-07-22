@@ -473,7 +473,28 @@ let age = 25;
 > - **Tuyệt đối không dùng `var`** trong code hiện đại.
 
 ### 8.4 Scope, Closure, Context (`this`)
-- **Scope**: Phạm vi truy cập biến. Có 3 loại: Global, Function, Block.
+
+**1. Scope (Phạm vi truy cập biến):**
+Nơi mà một biến có thể được nhìn thấy và sử dụng. Có 3 loại chính:
+- **Global Scope (Toàn cục):** Khai báo ngoài cùng, dùng được ở BẤT CỨ ĐÂU.
+  ```javascript
+  const globalVar = "Hello";
+  function test() { console.log(globalVar); } // ✅ Vẫn chạy được
+  ```
+- **Function Scope (Phạm vi hàm):** Khai báo bên trong hàm (đặc biệt là `var`), chỉ dùng được bên trong hàm đó.
+  ```javascript
+  function test() {
+    var funcVar = "Hi";
+  }
+  console.log(funcVar); // ❌ Lỗi: funcVar is not defined
+  ```
+- **Block Scope (Phạm vi khối):** Khai báo bằng `let` hoặc `const` bên trong `{}` (như `if`, `for`). Ra khỏi `{}` là biến chết.
+  ```javascript
+  if (true) {
+    let blockVar = "Hey";
+  }
+  console.log(blockVar); // ❌ Lỗi: blockVar is not defined
+  ```
 - **Closure**: Hàm con ghi nhớ và truy cập được biến của hàm cha **dù hàm cha đã chạy xong**.
   ```javascript
   function createCounter() {

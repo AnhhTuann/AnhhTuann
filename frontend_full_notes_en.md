@@ -475,7 +475,28 @@ let age = 25;
 > - **Never use `var`** in modern code.
 
 ### 8.4 Scope, Closure, Context (`this`)
-- **Scope**: Where variables are accessible. 3 types: Global, Function, Block.
+
+**1. Scope:**
+Where a variable can be seen and used. There are 3 main types:
+- **Global Scope:** Declared at the top level, accessible EVERYWHERE.
+  ```javascript
+  const globalVar = "Hello";
+  function test() { console.log(globalVar); } // ✅ Works perfectly
+  ```
+- **Function Scope:** Declared inside a function (especially using `var`), only accessible within that function.
+  ```javascript
+  function test() {
+    var funcVar = "Hi";
+  }
+  console.log(funcVar); // ❌ Error: funcVar is not defined
+  ```
+- **Block Scope:** Declared using `let` or `const` inside `{}` (like `if`, `for`). It dies once outside the `{}`.
+  ```javascript
+  if (true) {
+    let blockVar = "Hey";
+  }
+  console.log(blockVar); // ❌ Error: blockVar is not defined
+  ```
 - **Closure**: An inner function that **remembers and can access variables from its outer function** even after the outer function has returned.
   ```javascript
   function createCounter() {
