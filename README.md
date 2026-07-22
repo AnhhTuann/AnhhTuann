@@ -173,7 +173,7 @@
 | [📚 Tổng Hợp Kiến Thức Frontend (VI)](frontend_full_notes_vi.md) | 🇻🇳 Tiếng Việt | Tổng hợp đầy đủ: Git, HTML, CSS, JS, React, Performance... |
 | [🎯 Frontend Interview Questions (EN)](frontend_interview_questions_en.md) | 🇬🇧 English | Top interview Q&A: HTML, CSS, JS, React, Performance, System Design... |
 | [🎯 Câu Hỏi Phỏng Vấn Frontend (VI)](frontend_interview_questions_vi.md) | 🇻🇳 Tiếng Việt | Bộ câu hỏi phỏng vấn: HTML, CSS, JS, React, Performance, System Design... |
-| [🇬🇧 Lộ Trình Học Tiếng Anh Từ Đầu](hoc_tieng_anh_tu_dau.md) | 🇻🇳 Tiếng Việt | A0 → B2+: Ngữ pháp, từ vựng, luyện nói/nghe, tiếng Anh IT & phỏng vấn |
+| [🇬🇧 Lộ Trình Học Tiếng Anh Từ Đầu](hoc_tieng_anh_tu_dau.md) | 🇻🇳 Tiếng Việt | A0 → B2+: Ngữ pháp, từ vựng, luyện nói/nghe, tiếng Anh IT & phỏng vấn — [📂 Học theo chủ đề nhỏ](english/README.md) |
 
 </div>
 
