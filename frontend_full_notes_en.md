@@ -452,12 +452,25 @@ console.log(b); // ❌ Error (let is trapped)
 
 **2. Reassignment:**
 - Use `let` when the value will change (e.g., counters, loops).
-- Use `const` for fixed values. **Note:** Using `const` with Objects/Arrays prevents reassignment to a new Object/Array, but **mutating their properties is still allowed**.
+- Use `const` for fixed values (constants).
+
+🚨 **`const` INTERVIEW GOTCHA**:
+Many people think `const` makes something completely immutable (unchangeable). While you cannot "reassign" it (you cannot use the `=` sign to replace it), **if the value is an Object or Array (think of it as a bag), you ARE ALLOWED to add/remove/modify items inside that bag**. You just can't swap it for a completely new bag.
+
 ```javascript
+// 1. WITH OBJECTS
 const user = { name: "A" };
-user.name = "B";  // ✅ Mutating property is OK
-user = {};        // ❌ Error: Reassigning a constant
+user.name = "B"; // ✅ ALLOWED: You reached into the bag and changed A to B.
+user.age = 20;   // ✅ ALLOWED: You added a new item into the bag.
+user = {};       // ❌ ERROR: You threw the old bag away and tried to assign a new bag.
+
+// 2. WITH ARRAYS
+const list = [1, 2, 3];
+list.push(4);    // ✅ ALLOWED: Added 4 into the existing bag. (Now [1, 2, 3, 4])
+list[0] = 99;    // ✅ ALLOWED: Changed the first item to 99.
+list = [5, 6];   // ❌ ERROR: Threw the old bag away and assigned a new bag.
 ```
+> **The Core Concept**: `const` only locks the **memory address** of the bag, it does not lock the **contents** inside the bag.
 
 **3. Hoisting:**
 All three are hoisted to the top of their scope by JS, but handled differently:
