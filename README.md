@@ -169,6 +169,7 @@
 | 📄 Document | 🌐 Language | 📝 Description |
 |---|---|---|
 | [🗺️ Lộ Trình Học Front-End Từ Đầu](hoc_frontend_tu_dau.md) | 🇻🇳 Tiếng Việt | Roadmap học Frontend từ zero → Junior. 4 giai đoạn, tips thực chiến |
+| [📅 Thời Khóa Biểu Học Frontend + Tiếng Anh](thoikhoabieu_hoc.md) | 🇻🇳 Tiếng Việt | Lịch học kết hợp 16 tuần — Frontend & Tiếng Anh song song theo ngày |
 | [📚 Frontend Full Notes (EN)](frontend_full_notes_en.md) | 🇬🇧 English | Complete Frontend knowledge: Git, HTML, CSS, JS, React, Performance... |
 | [📚 Tổng Hợp Kiến Thức Frontend (VI)](frontend_full_notes_vi.md) | 🇻🇳 Tiếng Việt | Tổng hợp đầy đủ: Git, HTML, CSS, JS, React, Performance... |
 | [🎯 Frontend Interview Questions (EN)](frontend_interview_questions_en.md) | 🇬🇧 English | Top interview Q&A: HTML, CSS, JS, React, Performance, System Design... |
