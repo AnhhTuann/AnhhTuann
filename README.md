@@ -66,17 +66,15 @@
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="28"/>&nbsp;About Me
 </h2>
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding Boy"/>
-
 > **I am a Frontend Engineer with practical experience in designing and deploying web projects for diverse clients. I don't just write code — I'm passionate about the entire product journey: from translating ideas into designs to actual deployment and operation.**
 
-| | |
-|---|---|
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" width="20"/> | Currently working as a **Freelance Frontend Developer** |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Seedling.png" width="20"/> | Specializing in **E-commerce & Landing Pages** with React, Vite, and WordPress |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" width="20"/> | Aesthetic mindset — building **"Cinematic" & "Moody"** UI styles with SASS/SCSS |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="20"/> | Actively integrating **AI tools (Gemini, Antigravity IDE)** into my workflow to optimize & debug |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="20"/> | Continuously learning — documenting Frontend knowledge in **bilingual notes (VI & EN)** |
+<img align="right" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="340" alt="Coding at night"/>
+
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" width="20"/> &nbsp;Currently working as a **Freelance Frontend Developer**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Seedling.png" width="20"/> &nbsp;Specializing in **E-commerce & Landing Pages** with React, Vite & WordPress
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" width="20"/> &nbsp;Aesthetic mindset — crafting **"Cinematic" & "Moody"** UIs with SASS/SCSS
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="20"/> &nbsp;Integrating **AI tools (Gemini, Antigravity IDE)** into my workflow to optimize & debug
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="20"/> &nbsp;Always learning — documenting Frontend knowledge in **bilingual notes (VI & EN)**
 
 <br clear="both"/>
 
