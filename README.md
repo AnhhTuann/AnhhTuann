@@ -36,7 +36,7 @@
 
 <!-- Contact Info -->
 <p align="center">
-  📧 <b>tuannguyen25101999@gmail.com</b>&nbsp;&nbsp;•&nbsp;&nbsp;📞 <b>(+84) 9172-701-00</b><br/>
+  📧 <b>tuannguyen25101999@gmail.com</b>&nbsp;&nbsp;•&nbsp;&nbsp;📞 <b>(+84) 917 270 100</b><br/>
   🔗 <a href="https://github.com/AnhhTuann"><b>github.com/AnhhTuann</b></a>
 </p>
 
@@ -66,7 +66,7 @@
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="28"/>&nbsp;About Me
 </h2>
 
-<img align="right" src="https://user-images.githubusercontent.com/73097560/115834471-23ceb580-a44d-11eb-9fd5-0d79e5652504.gif" width="300" alt="Coding Boy"/>
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding Boy"/>
 
 > **I am a Frontend Engineer with practical experience in designing and deploying web projects for diverse clients. I don't just write code — I'm passionate about the entire product journey: from translating ideas into designs to actual deployment and operation.**
 
@@ -75,7 +75,7 @@
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" width="20"/> | Currently working as a **Freelance Frontend Developer** |
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Seedling.png" width="20"/> | Specializing in **E-commerce & Landing Pages** with React, Vite, and WordPress |
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" width="20"/> | Aesthetic mindset — building **"Cinematic" & "Moody"** UI styles with SASS/SCSS |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="20"/> | Actively integrating **AI models (Gemini, Antigravity)** into workflow to optimize & debug |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="20"/> | Actively integrating **AI tools (Gemini, Antigravity IDE)** into my workflow to optimize & debug |
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="20"/> | Continuously learning — documenting Frontend knowledge in **bilingual notes (VI & EN)** |
 
 <br clear="both"/>
@@ -96,7 +96,7 @@
 - 🚀 **End-to-End Web Development:** Set up and deploy websites from scratch using React, Vite, and optimized WordPress themes.
 - 🎨 **Aesthetic Mindset & SASS:** Leverage SASS/SCSS and an art background to craft distinctive, brand-specific interfaces.
 - 🧹 **Clean Code & Performance:** Committed to ESLint, Prettier, and Git-based version control for maintainable codebases.
-- 🤖 **AI-Powered Workflow:** Integrate LLMs (Gemini, Antigravity) for debugging and optimization — reducing deployment time by **~30%**.
+- 🤖 **AI-Powered Workflow:** Integrate AI tools (Gemini, Antigravity IDE) for debugging and optimization — reducing deployment time by **~30%**.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
@@ -149,7 +149,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anhhtuann&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anhhtuann&theme=radical" alt="GitHub Contributions" width="100%"/>
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
@@ -159,7 +159,7 @@
 <!-- ════════════════════════════════════════════════════════════════════ -->
 
 <h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="28"/>&nbsp;📚 My Learning Resources &amp; Notes
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="28"/>&nbsp;My Learning Resources &amp; Notes
 </h2>
 
 > I document everything I learn. Here are my personal knowledge bases — feel free to explore!
@@ -231,7 +231,7 @@
 
 | 🏫 Institution | 📅 Year | 🎓 Degree |
 |---|---|---|
-| **Saigon University (SGU)** | 2017 – 2021 | Information Technology Engineer |
+| **Saigon University (SGU)** | 2017 – 2021 | Engineer's Degree in Information Technology |
 
 **📜 Certifications:**
 - TOEIC — Score: **550**
